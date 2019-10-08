@@ -3,24 +3,27 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>zdeprecated</string>
+	<string>zuiviewinit</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>DEPRECATED_MSG_ATTRIBUTE("&lt;#弃用#&gt;")
-</string>
+	<string>- (instancetype)initWithFrame:(CGRect)frame {
+    if (self = [super initWithFrame:frame]) {
+        [self addSubview:&lt;#(nonnull UIView *)#&gt;]
+    }
+    
+    return self;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>A04761B0-54DE-4683-B8CA-395D2FA1F133</string>
+	<string>CD5ECAC8-DFFF-460A-B31A-5C94BB8699DF</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
-	<key>IDECodeSnippetPlatformFamily</key>
-	<string>iphoneos</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>属性弃用</string>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>属性弃用声明</string>
+	<string>UIView初始化重写</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -3,24 +3,28 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>zdeprecated</string>
+	<string>zcollectioncellinit</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>DEPRECATED_MSG_ATTRIBUTE("&lt;#弃用#&gt;")
+	<string>- (instancetype)initWithFrame:(CGRect)frame {
+    if (self = [super initWithFrame:frame]) {
+        [self.contentView addSubview:&lt;#subview#&gt;];
+    }
+    
+    return self;
+}
 </string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>A04761B0-54DE-4683-B8CA-395D2FA1F133</string>
+	<string>D187BB50-8F95-475A-AF53-6EC5B28E17A7</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
-	<key>IDECodeSnippetPlatformFamily</key>
-	<string>iphoneos</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>属性弃用</string>
+	<string>UICollectionCell初始化重写方法</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>属性弃用声明</string>
+	<string>UICollectionCell初始化</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

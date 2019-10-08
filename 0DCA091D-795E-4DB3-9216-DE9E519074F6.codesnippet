@@ -12,7 +12,8 @@
 	<string>/**
  &lt;#Description#&gt;
  */
-@property (nonatomic, copy) &lt;#NSString#&gt; *&lt;#copyString#&gt;;</string>
+@property (nonatomic, copy) &lt;#NSString#&gt; *&lt;#copyString#&gt;;
+</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>0DCA091D-795E-4DB3-9216-DE9E519074F6</string>
 	<key>IDECodeSnippetLanguage</key>

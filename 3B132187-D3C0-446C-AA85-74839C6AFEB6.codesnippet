@@ -19,7 +19,7 @@ static &lt;#NSString#&gt; *const &lt;#kStaticConstCommon#&gt; = &lt;#@"kStaticCo
 	<key>IDECodeSnippetSummary</key>
 	<string>静态变量</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>My Code Snippet</string>
+	<string>局部静态变量声明</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

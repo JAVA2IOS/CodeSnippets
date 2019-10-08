@@ -3,24 +3,27 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>zdeprecated</string>
+	<string>ztableviewcellinit</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>DEPRECATED_MSG_ATTRIBUTE("&lt;#弃用#&gt;")
-</string>
+	<string>- (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier {
+    if (self = [super initWithStyle:style reuseIdentifier:reuseIdentifier]) {
+        self.selectionStyle = UITableViewCellSelectionStyleNone;
+    }
+    
+    return self;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>A04761B0-54DE-4683-B8CA-395D2FA1F133</string>
+	<string>768EBFD7-707B-4E90-89D8-EFF861098E8E</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Generic</string>
-	<key>IDECodeSnippetPlatformFamily</key>
-	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>属性弃用</string>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>属性弃用声明</string>
+	<string>UITableViewCell初始化重写</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
