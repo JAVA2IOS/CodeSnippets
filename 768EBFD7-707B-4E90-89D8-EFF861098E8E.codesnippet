@@ -12,6 +12,7 @@
 	<string>- (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier {
     if (self = [super initWithStyle:style reuseIdentifier:reuseIdentifier]) {
         self.selectionStyle = UITableViewCellSelectionStyleNone;
+        [self.contentView addSubview:&lt;#(nonnull UIView *)#&gt;]
     }
     
     return self;
